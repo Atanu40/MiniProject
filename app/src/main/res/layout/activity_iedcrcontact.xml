@@ -12,22 +12,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
 
+
         >
 
         <TableRow
             android:id="@+id/tablerow1"
-            android:layout_width="match_parent"
+            android:layout_width="wrap_content"
 
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
 
             <TextView
                 android:id="@+id/Hospitalname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="150dp"
-                android:layout_marginTop="20dp"
-
+                android:layout_gravity="center"
+                android:layout_marginLeft="-30dp"
+                android:layout_span="2"
                 android:text="Information"
                 android:textAllCaps="true"
                 android:textColor="#FFC107"
@@ -47,15 +48,14 @@
 
             <TextView
                 android:id="@+id/PhoneNumber1"
-                android:layout_width="230dp"
+                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
-                android:layout_marginTop="0dp"
 
                 android:text="PhoneNumber"
                 android:textAllCaps="true"
                 android:textColor="#FFC107"
-                android:textSize="22sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
 
 
@@ -64,10 +64,9 @@
             <TextView
                 android:id="@+id/website"
                 android:layout_width="wrap_content"
-                android:layout_height="30dp"
-                android:layout_marginLeft="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="70dp"
                 android:layout_marginTop="0dp"
-
                 android:text="Website"
                 android:textAllCaps="true"
                 android:textColor="#FFC107"
@@ -89,8 +88,8 @@
 
             <TextView
                 android:id="@+id/PhoneNumber2"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="0dp"
 
@@ -105,15 +104,14 @@
 
             <TextView
                 android:id="@+id/web"
-                android:layout_width="202dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginTop="0dp"
                 android:autoLink="all"
-
-                android:text="@string/Address"
+                android:layout_marginLeft="10dp"
+                android:text="www.iedcr.gov.bd"
                 android:textAllCaps="true"
-                android:textColor="#FFC107"
+                android:textColor="#E9B413"
                 android:textSize="22sp"
                 android:textStyle="bold"
 
@@ -133,8 +131,8 @@
 
             <TextView
                 android:id="@+id/PhoneNumber3"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="0dp"
 
@@ -149,13 +147,13 @@
 
             <TextView
                 android:id="@+id/we"
-                android:layout_width="202dp"
-                android:layout_height="30dp"
-                android:layout_marginLeft="0dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
                 android:layout_marginTop="0dp"
                 android:autoLink="all"
 
-                android:text="www.iedcr.gov.bd"
+                android:text="www.facebook.com/iedcr/"
                 android:textAllCaps="true"
                 android:textColor="#FFC107"
                 android:textSize="22sp"

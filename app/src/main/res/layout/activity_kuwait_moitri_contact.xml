@@ -18,19 +18,18 @@
 
         <TableRow
             android:id="@+id/tablerow1"
-            android:layout_width="match_parent"
-
-            android:layout_height="match_parent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:layout_marginTop="20dp">
 
             <TextView
                 android:id="@+id/Hospitalname"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="120dp"
-                android:layout_marginTop="20dp"
-
+                android:layout_span="2"
+                android:layout_marginLeft="20dp"
                 android:text="Information"
+                android:layout_gravity="center"
                 android:textAllCaps="true"
                 android:textColor="#FFC107"
                 android:textSize="22sp"
@@ -49,8 +48,8 @@
 
             <TextView
                 android:id="@+id/PhoneNumber1"
-                android:layout_width="0dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_marginTop="0dp"
 
@@ -65,12 +64,12 @@
 
             <TextView
                 android:id="@+id/website"
-                android:layout_width="199dp"
-                android:layout_height="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
                 android:layout_marginLeft="0dp"
                 android:layout_marginTop="0dp"
-
                 android:text="Website"
+                android:layout_gravity="center"
                 android:textAllCaps="true"
                 android:textColor="#FFC107"
                 android:textSize="22sp"
@@ -113,7 +112,8 @@
                 android:layout_marginTop="0dp"
                 android:autoLink="all"
 
-                android:text="http://www.admitdoctors.com/Hospitals/hospital_details/68"
+
+                android:text="www.admitdoctors.com/Hospitals/hospital_details/68"
                 android:textAllCaps="true"
                 android:textColor="#FFC107"
                 android:textSize="22sp"
@@ -157,7 +157,7 @@
                 android:layout_marginTop="0dp"
                 android:autoLink="all"
 
-                android:text="http://www.admitdoctors.com/Hospitals/hospital_details/68"
+                android:text="www.facebook.com/KuwaitBDFriendship/"
                 android:textAllCaps="true"
                 android:textColor="#FFC107"
                 android:textSize="22sp"
